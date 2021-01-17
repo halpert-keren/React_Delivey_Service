@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const Delivery = ({ delivery }) => {
     return (
-        <div>
-            delcjhjg
-        </div>
+        <tr>
+            {delivery.name}
+        </tr>
     )
 }
 
-export default Delivery;
+export default Delivery

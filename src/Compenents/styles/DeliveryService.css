@@ -3,24 +3,30 @@
     padding: 0;
 }
 
+.main-container {
+    /*width: 100%;*/
+    /*margin: 0 auto;*/
+}
+
 .data-container {
-    width: 70%;
-    min-height: 300px;
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    /*min-height: 200px;*/
     background-image: url("Scene.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     position: absolute;
     right: 0;
     top: 0;
 }
-.truck {
-    background-image: url("truck.png");
-    background-repeat: no-repeat;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-}
 
-svg {
+/*.truck {*/
+/*    background-image: url("truck.png");*/
+/*    background-repeat: no-repeat;*/
+/*    position: absolute;*/
+/*    height: 395px;*/
+/*    left: 0;*/
+/*    bottom: 0;*/
+/*}*/
 
-}
