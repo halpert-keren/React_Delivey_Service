@@ -1,16 +1,15 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
+import './styles/DeliveryService.css'
+import DataComponent from "./DataComponent";
+import Truck from "./Truck";
 
-class DeliveryService extends Component {
-    constructor(props) {
-        super(props)
-    }
-    render() {
-        return (
-            <div>
-
-            </div>
-        )
-    }
+const DeliveryService = () => {
+    return (
+        <>
+            < DataComponent />
+            < Truck />
+        </>
+    )
 }
 
-export default DeliveryService;
+export default DeliveryService
