@@ -3,7 +3,10 @@ import React, { useState } from 'react';
 const Delivery = ({ delivery }) => {
     return (
         <tr>
-            {delivery.name}
+            <td>{delivery.id}</td>
+            <td>{delivery.date}</td>
+            <td>{delivery.name}</td>
+            <td>{delivery.city}</td>
         </tr>
     )
 }
