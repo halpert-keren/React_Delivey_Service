@@ -1,13 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 import DeliveryList from "./DeliveryList";
-import DeliveryForm from "./DeliveryForm";
-import deliveryData from "../Data/deliveries.json"
+import Deliveries from "../Data/deliveries.json";
 
 const DataComponent = () => {
     return (
-        <div className={"data-container"}>
-            < DeliveryList deliveryData = {deliveryData}/>
-            < DeliveryForm />
+        <div className='data-container'>
+            <DeliveryList deliveries={Deliveries}/>
         </div>
     )
 }

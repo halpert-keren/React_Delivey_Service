@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import './styles/DeliveryService.css'
+import React from 'react';
 import DataComponent from "./DataComponent";
 import Truck from "./Truck";
 
