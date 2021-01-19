@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
 
-class DeliveryForm extends Component {
+class DeliveryForm extends Component{
     constructor(props) {
         super(props)
         this.state = {
-            name: this.props.formInputs.name,
-            city: this.props.formInputs.city,
-            date: this.props.formInputs.date,
+            name: props.formInputs.name,
+            city: props.formInputs.city,
+            date: props.formInputs.date,
         }
 
         this.inputChanged = this.inputChanged.bind(this)

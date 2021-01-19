@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import Delivery from "./Delivery";
 import DeliveryForm from "./DeliveryForm";
+import Deliveries from "../Data/deliveries.json";
+
 
 class DeliveryList extends Component {
     constructor(props) {
@@ -25,7 +27,7 @@ class DeliveryList extends Component {
     }
 
     componentDidMount() {
-        this.props.deliveries.map(item => this.add({
+        Deliveries.map(item => this.add({
             id: item.id,
             name: item.name,
             date: item.date,
