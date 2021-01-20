@@ -2,11 +2,12 @@ import React, {Component} from 'react';
 import Delivery from "./Delivery";
 import DeliveryForm from "./DeliveryForm";
 import Deliveries from "../Data/deliveries.json";
-
+import {Table, TableBody, TableCell, TableContainer} from "@material-ui/core";
 
 class DeliveryList extends Component {
     constructor(props) {
         super(props)
+
         this.state = {
             deliveries: [],
             formInputs: {
@@ -90,24 +91,29 @@ class DeliveryList extends Component {
     eachDelivery(item, index) {
         return (
             <Delivery key={item.id} index={index} onChange={this.fillInput} onDelete={this.delete}>
-                <td> {index + 1} </td>
-                <td> {item.name} </td>
-                <td> {item.city} </td>
-                <td> {item.date} </td>
+                <TableCell style={{borderBottom: 'none', padding: '5px'}}> {index + 1} </TableCell>
+                <TableCell style={{borderBottom: 'none', padding: '5px'}}> {item.date} </TableCell>
+                <TableCell style={{borderBottom: 'none', padding: '5px'}}> {item.name} </TableCell>
+                <TableCell style={{borderBottom: 'none', padding: '5px'}}> {item.city} </TableCell>
             </Delivery>
         )
     }
 
     render() {
         return (
-            <>
-                <table className="delivery-table">
-                    <tbody>
-                    {this.state.deliveries.map(this.eachDelivery)}
-                    </tbody>
-                </table>
-                <DeliveryForm formInputs={this.state.formInputs} editing={this.state.editing} onAdd={this.add} onEdit={this.update}/>
-            </>
+            <div className={'scene'}>
+                <div className={'content-area'}>
+                    <TableContainer className="delivery-table" style={{height: '80%'}}>
+                        <Table>
+                            <TableBody style={{overflow: 'scroll'}}>
+                                {this.state.deliveries.map(this.eachDelivery)}
+                            </TableBody>
+                        </Table>
+                    </TableContainer>
+                    <DeliveryForm formInputs={this.state.formInputs} editing={this.state.editing} onAdd={this.add}
+                                  onEdit={this.update}/>
+                </div>
+            </div>
         )
     }
 }
