@@ -1,11 +1,11 @@
 import React from 'react';
 import Truck from "./Truck";
-import DeliveryList from "./DeliveryList";
+import DataComponent from "./DataComponent";
 
 const DeliveryService = () => {
     return (
         <div>
-            <DeliveryList/>
+            <DataComponent/>
             <Truck/>
         </div>
     )
