@@ -1,8 +1,6 @@
 import React, {Component} from 'react';
-import Delivery from "./Delivery";
 import DeliveryForm from "./DeliveryForm";
 import Deliveries from "../Data/deliveries.json";
-import {Table, TableBody, TableCell, TableContainer} from "@material-ui/core";
 import DeliveryList from "./DeliveryList";
 
 class DataComponent extends Component {
