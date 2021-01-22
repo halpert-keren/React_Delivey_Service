@@ -1,104 +1,20 @@
 [
   {
     "id": 1,
-    "name": "Niel McWhan",
-    "city": "Rabak",
-    "date": "2020-03-19"
+    "name": "John Doe",
+    "city": "Tel Aviv",
+    "date": "2021-01-01"
   },
   {
     "id": 2,
-    "name": "Ingunna Cheverell",
-    "city": "Salvador",
-    "date": "2020-03-29"
+    "name": "John Doe",
+    "city": "Haifa",
+    "date": "2021-01-05"
   },
   {
     "id": 3,
-    "name": "Allin Bisterfeld",
-    "city": "Gading",
-    "date": "2020-05-14"
-  },
-  {
-    "id": 4,
-    "name": "Saunderson Munslow",
-    "city": "Araras",
-    "date": "2020-12-09"
-  },
-  {
-    "id": 5,
-    "name": "Melinde Bassano",
-    "city": "Sicaya",
-    "date": "2020-01-10"
-  },
-  {
-    "id": 6,
-    "name": "Jessi Groll",
-    "city": "Lordegān",
-    "date": "2020-01-24"
-  },
-  {
-    "id": 7,
-    "name": "Sharline Burth",
-    "city": "Mealhada",
-    "date": "2020-05-18"
-  },
-  {
-    "id": 30,
-    "name": "Lilian Ivanikov",
-    "city": "San José",
-    "date": "2020-03-21"
-  },
-  {
-    "id": 9,
-    "name": "Elisha Curedale",
-    "city": "Níkaia",
-    "date": "2020-08-09"
-  },
-  {
-    "id": 60,
-    "name": "Dionne Corfield",
-    "city": "Teeli",
-    "date": "2020-11-13"
-  },
-  {
-    "id": 90,
-    "name": "Elisha Curedale",
-    "city": "Níkaia",
-    "date": "2020-08-09"
-  },
-  {
-    "id": 91,
-    "name": "Dionne Corfield",
-    "city": "Teeli",
-    "date": "2020-11-13"
-  },
-  {
-    "id": 92,
-    "name": "Dionne Corfield",
-    "city": "Teeli",
-    "date": "2020-11-13"
-  },
-  {
-    "id": 93,
-    "name": "Dionne Corfield",
-    "city": "Teeli",
-    "date": "2020-11-13"
-  },
-  {
-    "id": 94,
-    "name": "Dionne Corfield",
-    "city": "Teeli",
-    "date": "2020-11-13"
-  },
-  {
-    "id": 95,
-    "name": "Dionne Corfield",
-    "city": "Teeli",
-    "date": "2020-11-13"
-  },
-  {
-    "id": 96,
-    "name": "Dionne Corfield",
-    "city": "Teeli",
-    "date": "2020-11-13"
+    "name": "John Doe",
+    "city": "Jerusalem",
+    "date": "2021-01-06"
   }
 ]

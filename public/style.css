@@ -7,6 +7,7 @@
     font-family: 'Rubik', sans-serif;
     font-weight: 300;
 }
+
 .scene {
     display: block;
     width: 70%;
@@ -25,14 +26,11 @@
     flex-flow: row nowrap;
     width: 90%;
     height: 100%;
-    /*max-width: 1150px;*/
-    /*min-width: 1000px;*/
-    /*margin: 5%;*/
-
     position: absolute;
     right: 0;
     top: 0;
 }
+
 .delivery-table {
     margin: 3%;
     padding: 1%;
@@ -49,6 +47,7 @@
     margin-right: 10px;
     padding-right: 10px;
 }
+
 .delivery-table::-webkit-scrollbar-thumb {
     margin-right: 10px;
     background-color: darkgrey;
@@ -63,6 +62,7 @@
     flex-flow: column nowrap;
     width: 60%;
 }
+
 .delivery-form input {
     font-family: 'Rubik', sans-serif;
     font-weight: 500;
@@ -76,6 +76,7 @@
     padding-left: 5%;
     padding-right: 5%;
 }
+
 .delivery-form button {
     align-self: center;
     font-size: 80%;
@@ -87,6 +88,7 @@
     border-radius: 5px;
     margin: 5%;
 }
+
 .item-buttons {
     display: flex;
     flex-flow: row nowrap;
